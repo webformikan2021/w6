@@ -9,7 +9,7 @@ function setUserName() {
     setUserName();
   } else {
     localStorage.setItem('name', myName);
-    myHeading.innerHTML = 'こんにちは, ' + myName; //Mozilla is cool,から「こんにちは」に変更
+    myHeading.innerHTML = '今日は ' + myName +'さん ';
   }
 }
 
@@ -17,7 +17,7 @@ if(!localStorage.getItem('name')) {
   setUserName();
 } else {
   let storedName = localStorage.getItem('name');
-  myHeading.innerHTML = 'こんにちは, ' + storedName; 
+  myHeading.innerHTML = '今日は' + storedName + 'さん ';; 
 }
 
 myButton.onclick = function() {
