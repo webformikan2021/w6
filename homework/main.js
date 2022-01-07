@@ -9,7 +9,7 @@ function setUserName() {
     setUserName();
   } else {
     localStorage.setItem('name', myName);
-    myHeading.innerHTML = '今日は ' + myName +'さん ';
+    myHeading.innerHTML = '今日は' + myName +'さん ';
   }
 }
 
