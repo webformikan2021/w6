@@ -1,7 +1,7 @@
 // Personalized welcome message code
 
 let myButton = document.querySelector('button');
-let myHeading = document.querySelector('h1');
+let myHeading = document.querySelector('h2');
 console.log(myHeading);//追加
 function setUserName() {
   let myName = prompt('名前を入力してください');
